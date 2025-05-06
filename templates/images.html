@@ -50,7 +50,7 @@
             font-size: 14px;
             color: #ddd;
         }
-        .card-content h3 {
+        .card-content p strong {
             margin: 0 0 5px;
             color: #f48fb1;
             font-size: 16px;
@@ -71,7 +71,7 @@
             <img src="{{ url_for('static', filename='image.jpg') }}" alt="My local image">
             <!--<img src="{{ image.url }}" alt="{{ image.name }}">-->
             <div class="card-content">
-                <h3>{{ image.name }}</h3>
+                <p><strong>Name:</strong> {{ image.name }}</p>
                 <p><strong>Labels:</strong> {{ image.labels }}</p>
                 <p><strong>Safe Adult:</strong> {{ image.safe_adult }}</p>
                 <p><strong>Safe Racy:</strong> {{ image.safe_racy }}</p>

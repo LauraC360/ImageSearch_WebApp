@@ -15,7 +15,7 @@
         h1 {
             color: #ffffff;
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
         .results {
             display: grid;
@@ -41,16 +41,16 @@
             max-height: 500px;
             object-fit: cover;
         }
-        .result-card {
+        .result-content {
             padding: 10px;
             overflow-y: auto;
         }
-        .card-content p {
+        .result-content p {
             margin: 2px 0;
             font-size: 14px;
             color: #ddd;
         }
-        .result-card p strong {
+        .result-content p strong {
             margin: 0 0 5px;
             color: #f48fb1;
             font-size: 16px;
@@ -70,11 +70,13 @@
         <div class="result-card">
             <img src="{{ url_for('static', filename='image.jpg') }}" alt="My local image">
             <!--<img src="{{ image.url }}" alt="{{ image.name }}">-->
-            <p><strong>Name:</strong> {{ image.name }}</p>
-            <p><strong>Labels:</strong> {{ image.labels }}</p>
-            <p><strong>Safe Adult:</strong> {{ image.safe_adult }}</p>
-            <p><strong>Safe Racy:</strong> {{ image.safe_racy }}</p>
-            <p><strong>Safe Violence:</strong> {{ image.safe_violence }}</p>
+            <div class="result-content">
+                <p><strong>Name:</strong> {{ image.name }}</p>
+                <p><strong>Labels:</strong> {{ image.labels }}</p>
+                <p><strong>Safe Adult:</strong> {{ image.safe_adult }}</p>
+                <p><strong>Safe Racy:</strong> {{ image.safe_racy }}</p>
+                <p><strong>Safe Violence:</strong> {{ image.safe_violence }}</p>
+            </div>
         </div>
         {% endfor %}
     </div>
