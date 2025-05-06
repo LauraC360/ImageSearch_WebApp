@@ -5,6 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Images</title>
     <style>
+        .top-buttons {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .top-buttons a {
+            padding: 10px 20px;
+            background: #f48fb1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .top-buttons a:hover {
+            background: #ec407a;
+        }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #8e2de2 0%, #4a00e0 100%);
@@ -54,6 +76,9 @@
     </style>
 </head>
 <body>
+    <div class="top-buttons">
+        <a href="https://imagesearch-webapp-bcg9c9abcshug6ck.westeurope-01.azurewebsites.net">🔙</a>
+    </div>
     <form method="POST" action="/search">
         <h1>✨ SEARCH IMAGES ✨</h1>
         <input type="text" name="query" placeholder="Enter search query" required>

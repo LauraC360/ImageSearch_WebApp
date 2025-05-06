@@ -17,6 +17,28 @@
             text-align: center;
             margin-bottom: 40px;
         }
+        .top-buttons {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .top-buttons a {
+            padding: 10px 20px;
+            background: #f48fb1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .top-buttons a:hover {
+            background: #ec407a;
+        }
         .results {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -64,6 +86,10 @@
     </style>
 </head>
 <body>
+    <div class="top-buttons">
+        <a href="https://imagesearch-webapp-bcg9c9abcshug6ck.westeurope-01.azurewebsites.net">🔙</a>
+        <a href="https://imagesearch-webapp-bcg9c9abcshug6ck.westeurope-01.azurewebsites.net/search">🔍</a>
+    </div>
     <h1>🔍 SEARCH RESULTS FOR "{{ query }}"</h1>
     <div class="results">
         {% for image in images %}
