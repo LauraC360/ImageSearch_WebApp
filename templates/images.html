@@ -15,52 +15,46 @@
         h1 {
             color: #ffffff;
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
-        .results, .gallery {
+        .gallery {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 15px;
             max-height: 80vh;
             overflow-y: auto;
             padding-right: 10px;
-            max-width: 1200px;  /* NEW: limit total width */
-            margin: 0 auto;     /* NEW: center the grid */
+            max-width: 800px;
+            margin: 0 auto;
         }
-
-        .result-card, .card {
+        .card {
             background: #1e1e2f;
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.5);
             overflow: hidden;
-            height: 250px;       /* smaller height */
+            height: 250px;
             display: flex;
             flex-direction: column;
         }
-
-        .result-card img, .card img {
+        .card img {
             width: 100%;
             max-height: 100px;
             object-fit: cover;
         }
-
-        .card-content, .result-card {
+        .card-content {
             padding: 10px;
             overflow-y: auto;
         }
-
-        .result-card p, .card-content p {
+        .card-content p {
             margin: 2px 0;
-            font-size: 12px;
+            font-size: 18px;
             color: #ddd;
         }
-
-        .card-content h3, .result-card p strong {
+        .card-content h3 {
             margin: 0 0 5px;
             color: #f48fb1;
-            font-size: 14px;
+            font-size: 20px;
         }
-
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #6a0572 0%, #120078 100%);
