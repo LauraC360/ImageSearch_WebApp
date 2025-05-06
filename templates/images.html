@@ -7,9 +7,10 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+            background: linear-gradient(135deg, #8e2de2 0%, #4a00e0 100%);
             margin: 0;
             padding: 20px;
+            color: #fff;
         }
         h1 {
             color: #ffffff;
@@ -17,40 +18,39 @@
             margin-bottom: 20px;
         }
         .gallery {
-            display: flex;
-            overflow-x: auto;
-            padding-bottom: 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-height: 80vh;
+            overflow-y: auto;
+            padding-right: 10px;
         }
         .card {
-            background: #ffffff;
+            background: #1e1e2f;
             border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-            margin-right: 20px;
-            width: 250px;
-            flex: 0 0 auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            overflow: hidden;
         }
         .card img {
             width: 100%;
             height: auto;
-            border-top-left-radius: 12px;
-            border-top-right-radius: 12px;
         }
         .card-content {
             padding: 15px;
         }
         .card-content h3 {
             margin: 0 0 10px;
-            color: #333;
+            color: #f48fb1;
         }
         .card-content p {
             margin: 5px 0;
             font-size: 14px;
-            color: #555;
+            color: #ddd;
         }
     </style>
 </head>
 <body>
-    <h1>🌟 Images 🌟</h1>
+    <h1>🌟 IMAGES 🌟</h1>
     <div class="gallery">
         {% for image in images %}
         <div class="card">

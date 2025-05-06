@@ -7,38 +7,41 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
+            background: linear-gradient(135deg, #8e2de2 0%, #4a00e0 100%);
             margin: 0;
             padding: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            color: #fff;
         }
         form {
-            background: white;
+            background: #1e1e2f;
             padding: 30px;
             border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
             display: flex;
             flex-direction: column;
             align-items: center;
         }
         h1 {
-            color: #333;
+            color: #f48fb1;
             margin-bottom: 20px;
         }
         input[type="text"] {
             width: 250px;
             padding: 10px;
             margin-bottom: 10px;
-            border: 1px solid #ccc;
+            border: 1px solid #555;
             border-radius: 5px;
             font-size: 14px;
+            background: #333;
+            color: #fff;
         }
         button {
             padding: 10px 20px;
-            background: #4caf50;
+            background: #f48fb1;
             color: white;
             border: none;
             border-radius: 5px;
@@ -46,13 +49,13 @@
             cursor: pointer;
         }
         button:hover {
-            background: #43a047;
+            background: #ec407a;
         }
     </style>
 </head>
 <body>
     <form method="POST" action="/search">
-        <h1>✨ Search Images ✨</h1>
+        <h1>✨ SEARCH IMAGES ✨</h1>
         <input type="text" name="query" placeholder="Enter search query" required>
         <button type="submit">Search</button>
     </form>
