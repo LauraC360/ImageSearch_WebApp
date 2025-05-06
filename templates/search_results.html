@@ -95,8 +95,8 @@
     <div class="results">
         {% for image in images %}
         <div class="result-card">
-            <img src="{{ url_for('static', filename='image.jpg') }}" alt="My local image">
-            <!--<img src="{{ image.url }}" alt="{{ image.name }}">-->
+            <!--<img src="{{ url_for('static', filename='image.jpg') }}" alt="My local image">-->
+            <img src="{{ image.url }}" alt="{{ image.name }}">
             <div class="result-content">
                 <p><strong>Name:</strong> {{ image.name }}</p>
                 <p><strong>Labels:</strong> {{ image.labels }}</p>
