@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Results</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Search Results for "{{ query }}"</h1>
-    <ul>
+    <div class="results">
         {% for image in images %}
-        <li>
-            <img src="{{ image.url }}" alt="{{ image.name }}" width="200">
+        <div class="result-card">
+            <img src="{{ image.url }}" alt="{{ image.name }}">
             <p><strong>Name:</strong> {{ image.name }}</p>
             <p><strong>Labels:</strong> {{ image.labels }}</p>
             <p><strong>Safe Adult:</strong> {{ image.safe_adult }}</p>
             <p><strong>Safe Racy:</strong> {{ image.safe_racy }}</p>
             <p><strong>Safe Violence:</strong> {{ image.safe_violence }}</p>
-        </li>
+        </div>
         {% endfor %}
-    </ul>
+    </div>
 </body>
 </html>
