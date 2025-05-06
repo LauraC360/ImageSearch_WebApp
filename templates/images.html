@@ -53,13 +53,13 @@
         .card-content h3 {
             margin: 0 0 5px;
             color: #f48fb1;
-            font-size: 20px;
+            font-size: 14px;
         }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #6a0572 0%, #120078 100%);
             margin: 0;
-            padding: 20px;
+            padding: 16px;
         }
     </style>
 </head>
@@ -68,7 +68,8 @@
     <div class="gallery">
         {% for image in images %}
         <div class="card">
-            <img src="{{ image.url }}" alt="{{ image.name }}">
+            <img src="{{ url_for('static', filename='image.jpg') }}" alt="My local image">
+            <!--<img src="{{ image.url }}" alt="{{ image.name }}">-->
             <div class="card-content">
                 <h3>{{ image.name }}</h3>
                 <p><strong>Labels:</strong> {{ image.labels }}</p>
