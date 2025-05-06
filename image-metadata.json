@@ -1,0 +1,497 @@
+[
+  {
+    "labels": [
+      "Eyebrow",
+      "Facial expression",
+      "Eyelash",
+      "Black hair",
+      "Fictional character",
+      "Portrait",
+      "No expression",
+      "Portrait photography"
+    ],
+    "name": "3168131.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 2,
+      "violence": 2
+    },
+    "timestamp": "Mon, 07 Apr 2025 06:59:58 GMT"
+  },
+  {
+    "labels": [
+      "Facial expression",
+      "Pink",
+      "Hime cut",
+      "Long hair",
+      "Gesture",
+      "Hair coloring"
+    ],
+    "name": "7499fb34-9247-4827-afb8-ad2e1f50a08c.jpg",
+    "safeSearch": {
+      "adult": 2,
+      "racy": 2,
+      "violence": 2
+    },
+    "timestamp": "Sun, 04 May 2025 16:19:56 GMT"
+  },
+  {
+    "labels": [
+      "Hairstyle",
+      "Long hair",
+      "Pink",
+      "Eyelash",
+      "Bangs",
+      "Hime cut",
+      "Layered hair",
+      "Wig",
+      "Cartoon",
+      "Hair coloring"
+    ],
+    "name": "7fb00d05-0c93-45fd-bb61-da5aa2d32048.jpg",
+    "safeSearch": {
+      "adult": 2,
+      "racy": 3,
+      "violence": 2
+    },
+    "timestamp": "Sun, 04 May 2025 16:20:26 GMT"
+  },
+  {
+    "labels": [],
+    "name": "Collage-Maker-04-Sep-2022-0201-PM.jpg",
+    "safeSearch": {
+      "adult": 0,
+      "racy": 0,
+      "violence": 0
+    },
+    "timestamp": "Wed, 09 Apr 2025 09:08:17 GMT"
+  },
+  {
+    "labels": [
+      "Animation",
+      "Animated cartoon",
+      "Anime"
+    ],
+    "name": "ani_girl.jpg",
+    "safeSearch": {
+      "adult": 2,
+      "racy": 3,
+      "violence": 1
+    },
+    "timestamp": "Mon, 07 Apr 2025 19:52:38 GMT"
+  },
+  {
+    "labels": [
+      "Sculpture",
+      "Temple",
+      "Standing",
+      "Statue",
+      "Classical sculpture",
+      "Artifact",
+      "Stone carving",
+      "Torso",
+      "Ancient history",
+      "Thorax"
+    ],
+    "name": "aphr.jpg",
+    "safeSearch": {
+      "adult": 2,
+      "racy": 4,
+      "violence": 1
+    },
+    "timestamp": "Sun, 04 May 2025 16:24:25 GMT"
+  },
+  {
+    "labels": [
+      "Cat",
+      "Felidae",
+      "Carnivores",
+      "Felinae",
+      "Vertebrate",
+      "Whiskers",
+      "Facial expression",
+      "Snout",
+      "Fur",
+      "Domestic short-haired cat"
+    ],
+    "name": "c1.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 1,
+      "violence": 2
+    },
+    "timestamp": "Sun, 04 May 2025 16:15:20 GMT"
+  },
+  {
+    "labels": [
+      "Cat",
+      "Eyewear",
+      "Glasses",
+      "Vision Care",
+      "Felidae",
+      "Felinae",
+      "Sunglasses",
+      "Whiskers",
+      "Carnivores",
+      "Goggles"
+    ],
+    "name": "c2.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 2,
+      "violence": 2
+    },
+    "timestamp": "Sun, 04 May 2025 16:15:45 GMT"
+  },
+  {
+    "labels": [
+      "Eyewear",
+      "Cat",
+      "Glasses",
+      "Vision Care",
+      "Felidae",
+      "Sunglasses",
+      "Felinae",
+      "Whiskers",
+      "Goggles",
+      "Facial expression"
+    ],
+    "name": "c3.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 2,
+      "violence": 2
+    },
+    "timestamp": "Sun, 04 May 2025 16:16:16 GMT"
+  },
+  {
+    "labels": [
+      "Cat",
+      "Felidae",
+      "Felinae",
+      "Vertebrate",
+      "Carnivores",
+      "Whiskers",
+      "Iris",
+      "Snout",
+      "Fur",
+      "Birman"
+    ],
+    "name": "c4.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 2,
+      "violence": 2
+    },
+    "timestamp": "Sun, 04 May 2025 16:16:32 GMT"
+  },
+  {
+    "labels": [
+      "Cat",
+      "Felidae",
+      "Felinae",
+      "Facial expression",
+      "Whiskers",
+      "Fur",
+      "Carnivores",
+      "Snout",
+      "Kitten",
+      "Ragdoll"
+    ],
+    "name": "c5.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 2,
+      "violence": 2
+    },
+    "timestamp": "Sun, 04 May 2025 16:16:35 GMT"
+  },
+  {
+    "labels": [
+      "Cat",
+      "Felidae",
+      "Facial expression",
+      "Felinae",
+      "Tooth",
+      "Whiskers",
+      "Carnivores",
+      "Snout",
+      "Fur",
+      "Happiness"
+    ],
+    "name": "c6.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 2,
+      "violence": 2
+    },
+    "timestamp": "Sun, 04 May 2025 16:16:38 GMT"
+  },
+  {
+    "labels": [
+      "Facial expression",
+      "Anime",
+      "Animation",
+      "Animated cartoon"
+    ],
+    "name": "c81133a7-0cad-4d1b-92fa-b913850ae5a2.jpg",
+    "safeSearch": {
+      "adult": 3,
+      "racy": 4,
+      "violence": 2
+    },
+    "timestamp": "Sun, 04 May 2025 16:21:48 GMT"
+  },
+  {
+    "labels": [
+      "Dog",
+      "Vertebrate",
+      "Spitz",
+      "Carnivores",
+      "Snout",
+      "German Spitz Mittel",
+      "Pomeranian",
+      "German Spitz Klein",
+      "Toy dog",
+      "Working animal"
+    ],
+    "name": "cute-dog.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 2,
+      "violence": 2
+    },
+    "timestamp": "Sun, 06 Apr 2025 14:45:45 GMT"
+  },
+  {
+    "labels": [
+      "Cartoon",
+      "Toy",
+      "Animation",
+      "Graphics",
+      "Clip art",
+      "Fictional character"
+    ],
+    "name": "cute_image.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 2,
+      "violence": 1
+    },
+    "timestamp": "Sun, 06 Apr 2025 15:00:25 GMT"
+  },
+  {
+    "labels": [
+      "Blond",
+      "Art Model",
+      "Thigh",
+      "Long hair",
+      "Brown hair",
+      "Model",
+      "Bed",
+      "Curtain",
+      "Photo shoot",
+      "Love"
+    ],
+    "name": "download.jpg",
+    "safeSearch": {
+      "adult": 5,
+      "racy": 5,
+      "violence": 2
+    },
+    "timestamp": "Mon, 07 Apr 2025 07:10:55 GMT"
+  },
+  {
+    "labels": [
+      "Sculpture",
+      "Jaw",
+      "Classical sculpture",
+      "Statue",
+      "Torso",
+      "Muscle",
+      "Barechestedness",
+      "Thorax",
+      "Artifact",
+      "Abdomen"
+    ],
+    "name": "example.jpg",
+    "safeSearch": {
+      "adult": 2,
+      "racy": 3,
+      "violence": 1
+    },
+    "timestamp": "Mon, 07 Apr 2025 20:30:43 GMT"
+  },
+  {
+    "labels": [
+      "Facial expression",
+      "Fictional character",
+      "Animation",
+      "Animated cartoon",
+      "Graphics",
+      "Fiction"
+    ],
+    "name": "hq720.jpg",
+    "safeSearch": {
+      "adult": 2,
+      "racy": 3,
+      "violence": 3
+    },
+    "timestamp": "Mon, 07 Apr 2025 07:00:32 GMT"
+  },
+  {
+    "labels": [
+      "Square academic cap",
+      "Graphics",
+      "Clip art",
+      "Graphic design"
+    ],
+    "name": "image_example.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 1,
+      "violence": 1
+    },
+    "timestamp": "Mon, 07 Apr 2025 19:32:50 GMT"
+  },
+  {
+    "labels": [
+      "Cross",
+      "Religious Item",
+      "Symbol",
+      "Crucifix",
+      "Barechestedness",
+      "Flesh",
+      "Balance"
+    ],
+    "name": "image_explicit.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 3,
+      "violence": 5
+    },
+    "timestamp": "Wed, 09 Apr 2025 15:23:17 GMT"
+  },
+  {
+    "labels": [
+      "Canis",
+      "Wolf",
+      "Snout",
+      "Carnivores",
+      "Canidae",
+      "Coyote"
+    ],
+    "name": "image_no_explicit.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 2,
+      "violence": 1
+    },
+    "timestamp": "Wed, 09 Apr 2025 15:23:23 GMT"
+  },
+  {
+    "labels": [
+      "Tattoo",
+      "Elbow",
+      "Muscle",
+      "Barechestedness",
+      "Thorax",
+      "Flesh",
+      "Pain",
+      "Torso",
+      "Zombie",
+      "Abdomen"
+    ],
+    "name": "imagee.png",
+    "safeSearch": {
+      "adult": 2,
+      "racy": 4,
+      "violence": 5
+    },
+    "timestamp": "Wed, 09 Apr 2025 08:28:10 GMT"
+  },
+  {
+    "labels": [
+      "Facial expression",
+      "Cartoon",
+      "Animated cartoon",
+      "Animation",
+      "Anime",
+      "Fictional character",
+      "Film",
+      "Fiction",
+      "Hero",
+      "Television show"
+    ],
+    "name": "images.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 1,
+      "violence": 1
+    },
+    "timestamp": "Mon, 07 Apr 2025 19:58:08 GMT"
+  },
+  {
+    "labels": [
+      "Cat",
+      "Felidae",
+      "Whiskers",
+      "Felinae",
+      "Facial expression",
+      "Carnivores",
+      "Tooth",
+      "Snout",
+      "Fur",
+      "Tongue"
+    ],
+    "name": "pexels-pixabay-57416.jpg",
+    "safeSearch": {
+      "adult": 1,
+      "racy": 2,
+      "violence": 2
+    },
+    "timestamp": "Sun, 06 Apr 2025 12:53:08 GMT"
+  },
+  {
+    "labels": [
+      "Hairstyle",
+      "Cartoon",
+      "Fictional character",
+      "Anime",
+      "Pink",
+      "CG artwork",
+      "Long hair",
+      "Thigh",
+      "Purple",
+      "Hime cut"
+    ],
+    "name": "uploaded-image-1.jpg",
+    "safeSearch": {
+      "adult": 2,
+      "racy": 3,
+      "violence": 2
+    },
+    "timestamp": "Mon, 07 Apr 2025 19:20:30 GMT"
+  },
+  {
+    "labels": [
+      "Dress",
+      "Long hair",
+      "Anime",
+      "Day Dress",
+      "Animation",
+      "One-piece garment",
+      "Hime cut",
+      "CG artwork",
+      "Fashion illustration",
+      "Foot"
+    ],
+    "name": "uploaded-image-2.jpg",
+    "safeSearch": {
+      "adult": 2,
+      "racy": 2,
+      "violence": 1
+    },
+    "timestamp": "Mon, 07 Apr 2025 19:54:17 GMT"
+  }
+]
