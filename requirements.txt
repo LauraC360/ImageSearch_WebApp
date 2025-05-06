@@ -1,3 +1,6 @@
 Flask~=3.1.0
 gunicorn
 azure-storage-blob
+pyodbc~=5.2.0
+python-dotenv
+requests

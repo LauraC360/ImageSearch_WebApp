@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    <h1>Images</h1>
+    <div>
+        {% for image in images %}
+            <div style="margin: 20px; border: 1px solid #ccc; padding: 10px; display: inline-block; width: 300px;">
+                <img src="{{ image.url }}" alt="{{ image.name }}" style="width: 100%; height: auto;">
+                <h3>{{ image.name }}</h3>
+                <p><strong>Labels:</strong> {{ image.labels }}</p>
+                <p><strong>Safe Adult:</strong> {{ image.safe_adult }}</p>
+                <p><strong>Safe Racy:</strong> {{ image.safe_racy }}</p>
+                <p><strong>Safe Violence:</strong> {{ image.safe_violence }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
