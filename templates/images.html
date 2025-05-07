@@ -5,13 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Images</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #8e2de2 0%, #4a00e0 100%);
-            margin: 0;
-            padding: 20px;
-            color: #fff;
-        }
         h1 {
             color: #ffffff;
             text-align: center;
@@ -44,7 +37,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 15px;
-            max-height: 80vh;
+            max-height: 82vh;
             overflow-y: auto;
             padding-right: 10px;
             max-width: 1000px;
@@ -55,7 +48,7 @@
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.5);
             overflow: hidden;
-            height: 500px;
+            height: 660px;
             display: flex;
             flex-direction: column;
         }
@@ -94,7 +87,6 @@
     <div class="gallery">
         {% for image in images %}
         <div class="card">
-            <!--<img src="{{ url_for('static', filename='image.jpg') }}" alt="My local image">-->
             <img src="{{ image.url }}" alt="{{ image.name }}">
             <div class="card-content">
                 <p><strong>Name:</strong> {{ image.name }}</p>
