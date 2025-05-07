@@ -88,7 +88,7 @@
     <div class="results">
         {% for image in images %}
         <div class="result-card">
-            <img id="image-{{ image.name }}" src="{{ image.src }}" alt="{{ image.name }}">
+            <img src="{{ url_for('static', filename='image.jpg') }}" alt="My local image">
             <div class="result-content">
                 <p><strong>Name:</strong> {{ image.name }}</p>
                 <p><strong>Labels:</strong> {{ image.labels }}</p>
@@ -99,20 +99,5 @@
         </div>
         {% endfor %}
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            {% for image in images %}
-            var imgElement = document.getElementById('image-{{ image.name }}');
-            var safeAdult = {{ image.safe_adult }};
-            var safeRacy = {{ image.safe_racy }};
-            var safeViolence = {{ image.safe_violence }};
-            if (safeAdult > 3 || safeRacy > 3 || safeViolence > 3) {
-                imgElement.src = "{{ url_for('static', filename='image.jpg') }}";
-            } else {
-                imgElement.src = "{{ image.url }}";
-            }
-            {% endfor %}
-        });
-    </script>
 </body>
 </html>
